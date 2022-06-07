@@ -1,18 +1,53 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Navbar />
+    <Working />
+    <Best />
+    <Vendoo />
+    <May />
+    <Pixel />
+    <Ceo />
+    <Cola />
+    <Work />
+    <Java />
+    <Online />
+    <Finish />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import Navbar from "@/components/Navbar.vue";
+import Working from "@/components/Working.vue";
+import Best from "@/components/Best.vue";
+import Vendoo from "@/components/Vendoo.vue";
+import May from "@/components/May.vue";
+import Pixel from "@/components/Pixel.vue";
+import Ceo from "@/components/Ceo.vue";
+import Cola from "@/components/Cola.vue";
+import Work from "@/components/Work.vue";
+import Java from "@/components/Java.vue";
+import Online from "@/components/Online.vue";
+import Finish from "@/components/Finish.vue";
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    HelloWorld
-  }
-}
+    Navbar,
+    Working,
+    Best,
+    Vendoo,
+    May,
+    Pixel,
+    Ceo,
+    Cola,
+    Work,
+    Java,
+    Online,
+    Finish,
+  },
+};
 </script>
+<style lang="scss" scoped>
+.home {
+  position: relative;
+}
+</style>
