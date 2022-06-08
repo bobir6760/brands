@@ -49,6 +49,9 @@ export default {
   display: flex;
   justify-content: space-between;
 }
+.finish-wrapper__subtitle {
+  cursor: pointer;
+}
 .finish-info {
   color: white;
 }
@@ -57,29 +60,39 @@ export default {
 }
 .finish-wrapper__text {
   color: white;
+  cursor: pointer;
 }
 .finish-body__title {
   color: white;
   margin-bottom: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 .finish-werapper__title {
   margin-bottom: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 .finish-item__title {
   margin-bottom: 20px;
   font-weight: bold;
+  cursor: pointer;
+}
+.finish-item__subtitle {
+  cursor: pointer;
 }
 .finish-text__title {
   margin-bottom: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 .finish-wrapper__image img {
   width: 100%;
+  cursor: pointer;
 }
 .finish-image img {
   width: 100%;
+  cursor: pointer;
 }
 @media screen and (max-width: 768px) {
   .finish-wrapper {
@@ -88,7 +101,7 @@ export default {
     text-align: center;
     gap: 50px;
   }
-    .finish-image img {
+  .finish-image img {
     width: 40%;
   }
   .finish-wrapper__image img {

@@ -42,12 +42,15 @@ export default {
 .work-image {
   margin-bottom: 77px;
   width: 100%;
+  cursor: pointer;
 }
 .work-wrapper__title {
   margin-bottom: 67px;
+  cursor: pointer;
 }
 .work-wrapper__subtitle {
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .work-btn {
   display: flex;

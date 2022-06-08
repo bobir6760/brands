@@ -26,6 +26,7 @@ export default {
   color: white;
   font-size: 20px;
   width: 55%;
+  cursor: pointer;
 }
 @media screen and (max-width: 1200px) {
   .best-wrapper {

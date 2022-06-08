@@ -52,11 +52,13 @@ export default {
   font-size: 40px;
   color: white;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 .online-wrapper__subtitle {
   color: white;
   font-size: 20px;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 .online-wrapper__text {
   color: white;

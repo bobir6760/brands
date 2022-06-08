@@ -47,6 +47,7 @@ export default {
 }
 .pixel-wrapper__image {
   margin-bottom: 30px;
+  cursor: pointer;
 }
 .pixel-wrapper__image img {
   width: 100%;
@@ -106,6 +107,7 @@ export default {
 .pixel-wrapper__title {
   color: white;
   font-size: 22px;
+  cursor: pointer;
 }
 @media screen and (max-width: 1200px) {
   .pixel-wrapper__image img {

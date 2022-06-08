@@ -61,11 +61,13 @@ export default {
 .java-wapper__title {
   font-size: 40px;
   margin-bottom: 30px;
+  cursor: pointer;
   font-weight: bold;
 }
 .java-wrapper__subtitle {
   font-size: 25px;
   margin-bottom: 87px;
+  cursor: pointer;
 }
 .java-info {
   text-align: center;
@@ -78,6 +80,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(5, 2fr);
   gap: 20px;
+  cursor: pointer;
 }
 .java-wrapper__image {
   display: flex;
@@ -86,6 +89,7 @@ export default {
 .java-wrapper__image img {
   width: 100px;
   height: 100px;
+  cursor: pointer;
   object-fit: contain;
 }
 @media screen and(max-width: 768px) {

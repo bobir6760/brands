@@ -45,6 +45,7 @@ export default {
 }
 .vendoo-wrapper__image img {
   width: 100%;
+  cursor: pointer;
 }
 .vendoo-info {
   margin-top: 50px;
@@ -102,6 +103,7 @@ export default {
   color: white;
   font-size: 22px;
   margin-top: 30px;
+  cursor: pointer;
 }
 .vendoo-body__image img {
   width: 100%;

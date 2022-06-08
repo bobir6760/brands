@@ -45,6 +45,8 @@ export default {
 }
 .cola-wrapper__image {
   margin-bottom: 25px;
+  cursor: pointer;
+  cursor: pointer;
 }
 .cola-wrapper__block {
   display: flex;
@@ -53,6 +55,7 @@ export default {
 }
 .cola-image img {
   width: 100%;
+  cursor: pointer;
 }
 .pixel-wrapper__block {
   display: flex;
@@ -73,6 +76,7 @@ export default {
 .cola-wrapper__title {
   font-size: 22px;
   color: white;
+  cursor: pointer;
 }
 @media screen and (max-width: 992px) {
   .cola-wrapper__block {

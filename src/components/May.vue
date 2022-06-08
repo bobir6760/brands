@@ -40,13 +40,16 @@ export default {
 .may-wrapper-image {
   margin-bottom: 77px;
   width: 100%;
+  cursor: pointer;
 }
 .may-wrapper__title {
   margin-bottom: 67px;
+  cursor: pointer;
 }
 .may-wrapper__subtitle {
   margin-bottom: 20px;
   color: #8C8C8C;
+  cursor: pointer;
 }
 .may-info {
   display: flex;

@@ -47,12 +47,15 @@ export default {
 .ceo-wrapper__image {
   margin-bottom: 77px;
   width: 100%;
+  cursor: pointer;
 }
 .ceo-wrapper__title {
   margin-bottom: 67px;
+  cursor: pointer;
 }
 .ceo-wrapper__subtitle {
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .ceo-btn {
   display: flex;

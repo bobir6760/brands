@@ -44,6 +44,7 @@ export default {
   font-size: 25px;
   position: absolute;
   transform: translateY(100%);
+  cursor: pointer;
 }
 @media screen and(max-width: 1200px) {
   .working-title {

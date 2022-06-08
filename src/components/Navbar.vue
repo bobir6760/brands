@@ -57,26 +57,33 @@ export default {
   display: flex;
   gap: 70px;
   color: white;
+  cursor: pointer;
+}
+.navbar-wrapper__title p:hover {
+font-size: 20px;
 }
 .navbar-item__title {
   color: white;
   font-size: 50px;
+  cursor: pointer;
 }
 .navbar-btn {
   border-radius: 50px;
   padding: 10px 40px;
-  color: #003166;
+  color: black;
   font-size: 18px;
   border: none;
   cursor: pointer;
 }
 .navbar-btn:active {
-  color: #6856c9;
+  background-color: black;
+  color: white;
 }
 .navbar-item__subtitle {
   color: white;
   font-size: 20px;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 .navbar-wrapper__block {
   display: flex;
