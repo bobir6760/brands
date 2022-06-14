@@ -59,25 +59,28 @@ export default {
   color: white;
   cursor: pointer;
 }
-.navbar-wrapper__title p:hover {
-font-size: 20px;
-}
 .navbar-item__title {
   color: white;
   font-size: 50px;
   cursor: pointer;
 }
 .navbar-btn {
-  border-radius: 50px;
+  border-radius: 20px;
   padding: 10px 40px;
   color: black;
   font-size: 18px;
   border: none;
   cursor: pointer;
 }
-.navbar-btn:active {
-  background-color: black;
+// .navbar-btn:active {
+//   background-color: white;
+//   color: black;
+// }
+.navbar-btn:hover {
+  background-color: #003166;
   color: white;
+  transition: 0.9s;
+  border-radius: 7px;
 }
 .navbar-item__subtitle {
   color: white;
@@ -92,9 +95,11 @@ font-size: 20px;
 }
 .navbar-image img {
   width: 100%;
+  cursor: pointer;
 }
 .navbar-item__image img {
-  width: 98%;
+  width: 100%;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 992px) {

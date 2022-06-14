@@ -57,14 +57,17 @@ export default {
   align-items: center;
   color: white;
   background: linear-gradient(273.36deg, #003166 0%, #007aff 100%);
-  border-radius: 50px;
+  border-radius: 30px;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
   gap: 5px;
 }
-.work-btn:active {
-  color: black;
+.work-btn:hover {
+  transition: 1s;
+  background: black;
+  color: white;
+  border-radius: 5px;
 }
 .work-btn img {
   width: 24px;

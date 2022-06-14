@@ -48,7 +48,7 @@ export default {
 }
 .may-wrapper__subtitle {
   margin-bottom: 20px;
-  color: #8C8C8C;
+  color: #8c8c8c;
   cursor: pointer;
 }
 .may-info {
@@ -72,7 +72,12 @@ export default {
   object-fit: contain;
 }
 .may-btn:active {
-  color: black;
+  background: #007aff;
+}
+.may-btn:hover {
+  transition: 0.7s;
+  box-shadow: inset 45px 0 0 0 black;
+  border-radius: 7px;
 }
 @media screen and (max-width: 576px) {
   .may-wrapper-image {

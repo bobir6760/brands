@@ -71,7 +71,12 @@ export default {
   cursor: pointer;
 }
 .cola-btn:active {
-  color: black;
+  background: #3c4147;
+  color: white;
+}
+.cola-btn:hover {
+  border-radius: 5px;
+  transition: 0.3s;
 }
 .cola-wrapper__title {
   font-size: 22px;
@@ -101,7 +106,7 @@ export default {
   }
 }
 @media screen and (max-width: 576px) {
-    .cola-btn {
+  .cola-btn {
     padding: 3px 5px;
     border-radius: 15px;
     font-size: 12px;

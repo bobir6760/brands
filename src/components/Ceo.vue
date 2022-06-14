@@ -69,7 +69,12 @@ export default {
   gap: 5px;
 }
 .ceo-btn:active {
-  color: black;
+  background: #007aff;
+}
+.ceo-btn:hover {
+  transition: 0.7s;
+  box-shadow: inset 45px 0 0 0 black;
+  border-radius: 7px;
 }
 .ceo-btn img {
   width: 24px;

@@ -64,7 +64,11 @@ export default {
   cursor: pointer;
 }
 .vendoo-wrapper__btn:active {
-  color: black;
+  background: #003166;
+}
+.vendoo-wrapper__btn:hover {
+  border-radius: 7px;
+  transition: 0.5s;
 }
 .vendoo-info__btn {
   color: white;
@@ -75,7 +79,11 @@ export default {
   cursor: pointer;
 }
 .vendoo-info__btn:active {
-  color: black;
+  background: #003166;
+}
+.vendoo-info__btn:hover {
+  border-radius: 7px;
+  transition: 0.5s;
 }
 .vendoo-text__btn {
   color: white;
@@ -86,7 +94,11 @@ export default {
   cursor: pointer;
 }
 .vendoo-text__btn:active {
-  color: black;
+  background: #003166;
+}
+.vendoo-text__btn:hover {
+  border-radius: 7px;
+  transition: 0.5s;
 }
 .vendoo-btn {
   color: white;
@@ -97,7 +109,11 @@ export default {
   cursor: pointer;
 }
 .vendoo-btn:active {
-  color: black;
+background: #003166;
+}
+.vendoo-btn:hover {
+  border-radius: 7px;
+  transition: 0.5s;
 }
 .vendoo-wrapper__title {
   color: white;
@@ -118,12 +134,12 @@ export default {
     height: 100%;
   }
   .vendoo-wrapper__title {
-  font-size: 17px;
-}
-.vendoo-block {
-  gap: 10px;
-  margin-top: 45px;
-}
+    font-size: 17px;
+  }
+  .vendoo-block {
+    gap: 10px;
+    margin-top: 45px;
+  }
 }
 @media screen and (max-width: 992px) {
   .vendoo-wrapper__title {
@@ -157,7 +173,7 @@ export default {
   .vendoo-wrapper__title {
     text-align: start;
   }
-   .vendoo-block {
+  .vendoo-block {
     display: flex;
     gap: 2px;
   }

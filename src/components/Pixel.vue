@@ -69,7 +69,12 @@ export default {
   cursor: pointer;
 }
 .pixel-wrapper__btn:active {
-  color: black;
+  background: white;
+  color: #3c4147;
+}
+.pixel-wrapper__btn:hover {
+  border-radius: 7px;
+  transition: 0.5s;
 }
 .pixel-info__btn {
   color: white;
@@ -80,7 +85,12 @@ export default {
   cursor: pointer;
 }
 .pixel-info__btn:active {
-  color: black;
+  background: white;
+  color: #3c4147;
+}
+.pixel-info__btn:hover {
+  border-radius: 7px;
+  transition: 0.5s;
 }
 .pixel-text__btn {
   color: white;
@@ -91,7 +101,12 @@ export default {
   cursor: pointer;
 }
 .pixel-text__btn:active {
-  color: black;
+  background: white;
+  color: #3c4147;
+}
+.pixel-text__btn:hover {
+  border-radius: 7px;
+  transition: 0.5s;
 }
 .pixel-item__btn {
   color: white;
@@ -102,7 +117,12 @@ export default {
   cursor: pointer;
 }
 .pixel-item__btn:active {
-  color: black;
+  background: white;
+  color: #3c4147;
+}
+.pixel-item__btn:hover {
+  border-radius: 7px;
+  transition: 0.5s;
 }
 .pixel-wrapper__title {
   color: white;

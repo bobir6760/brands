@@ -67,16 +67,17 @@ export default {
 }
 .online-btn {
   color: white;
-  border: none;
   padding: 15px 60px;
   background: linear-gradient(273.36deg, #003166 0%, #007aff 100%);
   border-radius: 50px;
   font-size: 18px;
   cursor: pointer;
 }
-.online-btn:active {
-  color: black;
-  font-size: 22px;
+.online-btn:hover {
+  transition: 1s;
+  color: white;
+  background: linear-gradient(273.36deg, #003166 40%, #007aff 80%);
+  box-shadow: inset 300px 0 0 0 #007aff;
 }
 .online-block {
   display: flex;
@@ -102,9 +103,11 @@ export default {
   cursor: pointer;
   border-color: #007aff;
 }
-.online-block__btn:active {
+.online-block__btn:hover {
+  transition: 2s;
   color: white;
   background: linear-gradient(273.36deg, #003166 40%, #007aff 80%);
+  box-shadow: inset 300px 0 0 0 #007aff;
 }
 @media screen and (max-width: 992px) {
   .online-btn {
